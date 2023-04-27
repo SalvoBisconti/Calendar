@@ -1,0 +1,23 @@
+.Content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 500px;
+
+  .btn {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid crimson;
+    color: crimson;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: crimson;
+      color: white;
+      border-radius: 100%;
+    }
+  }
+}

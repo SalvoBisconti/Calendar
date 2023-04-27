@@ -1,0 +1,17 @@
+.Day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+  color: gray;
+  cursor: pointer;
+}
+
+.active {
+  background-color: crimson;
+  color: white;
+}
